@@ -10,6 +10,6 @@ int is_valid(char *op, char *args)
 	/*         syntax check         */
     /*  							*/
 	/********************************/
-	
+	/	modify		/	
 	return 1;
 }
