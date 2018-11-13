@@ -1,6 +1,7 @@
 #include "myas.h"
 
 int is_valid(char *op, char *args){
+
 	int i = 0,eval=0;
 
 	if(args[0] == '%'){
