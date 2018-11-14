@@ -63,9 +63,9 @@ int instr_trans(char *op, char *args, char* mcode)
 				strcpy(mcode, "be");
 				i=0;
 				break;
-			}
-				
-		i++;
+			}	
+			i++;
+		}
 	}
 	
 	return 1;	
