@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 		// translate assembly into machine-code 
 		if(!instr_trans(op, args, mcode)){
 			printf("Error: %s %s cannot be translated\n", op, args);
-			continue;
+			strcpy(mcode, "error");
 		}
 		fprintf(ofp, "%s\n", mcode);
 	}
